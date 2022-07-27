@@ -1,0 +1,365 @@
+@import './fonts.scss';
+
+body {
+  background: #0a1831;
+  background-image: url('../images/herosection.svg');
+  background-repeat: repeat-x;
+  background-position: top;
+  font-family: 'Gilroy';
+}
+
+.menu-items {
+  font-size: 18px;
+
+  li {
+    margin: 1rem;
+
+    &:hover {
+      font-size: 22px;
+      font-weight: 600;
+      color: #00ffa3;
+      line-height: 26px;
+      cursor: pointer;
+    }
+  }
+}
+
+.booking-kart-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 400px;
+
+  h1 {
+    font-family: 'DotGothic16';
+    font-size: 58px;
+    text-align: center;
+    color: #ffffff;
+  }
+  p {
+    width: 634px;
+    height: 40px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.button {
+  width: 286px;
+  height: 59px;
+
+  background: linear-gradient(180deg, #00d8a4 0%, #009470 100%);
+  box-shadow: 6px 6px 17px rgba(3, 23, 32, 0.46);
+  border-radius: 20px 4px;
+
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.promo-carts-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  h3 {
+    font-family: 'DotGothic16';
+    font-size: 144px;
+    color: #ffffff;
+    opacity: 0.1;
+  }
+  p {
+    font-family: 'DotGothic16';
+    color: #ffffff;
+    font-size: 58px;
+    span {
+      font-family: 'Gilroy';
+      font-size: 18px;
+    }
+  }
+}
+
+.swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 450px;
+      height: 450px;
+    }
+
+    h4 {
+      font-family: 'DotGothic16';
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    h6 {
+      font-size: 24px;
+      color: #ffffff;
+    }
+
+    p {
+      width: 629px;
+      height: 69px;
+      font-size: 17px;
+      color: #ffffff;
+    }
+  }
+
+  .swiper-button-prev {
+    color: #00ffa3;
+  }
+
+  .swiper-button-next {
+    color: #00ffa3;
+  }
+}
+
+.second-booking {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+
+  .section-one {
+    .second-booking-head {
+      span {
+        font-family: 'DotGothic16';
+        font-size: 58px;
+      }
+
+      p {
+        font-family: 'Gilroy';
+        font-size: 18px;
+      }
+    }
+    .second-booking-about {
+      width: 524px;
+      height: 100px;
+
+      p {
+        font-size: 17px;
+      }
+    }
+
+    .second-booking-footer {
+      margin-top: 31px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
+      align-self: center;
+
+      .statistics {
+        display: flex;
+
+        p {
+          font-size: 17px;
+          display: flex;
+          flex-direction: column;
+          margin-right: 20px;
+
+          span {
+            font-size: 40px;
+            color: #00ffa3;
+          }
+        }
+      }
+
+      .booking-buttons {
+        margin-left: 120px;
+      }
+    }
+  }
+
+  .section-two {
+    p {
+      font-family: 'DotGothic16';
+      font-size: 144px;
+      text-align: right;
+      color: #ffffff;
+      opacity: 0.1;
+    }
+  }
+}
+
+.features {
+  color: #ffffff;
+
+  .features-head {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+
+    h4 {
+      font-family: 'DotGothic16';
+      font-size: 144px;
+      color: #ffffff;
+      opacity: 0.1;
+      left: 0;
+    }
+
+    p {
+      font-family: 'Gilroy';
+      font-size: 18px;
+
+      span {
+        margin-left: 80px;
+        font-family: 'DotGothic16';
+        font-size: 58px;
+      }
+    }
+  }
+
+  .features-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .features-card {
+      width: 400px;
+      height: 120px;
+      border: 2px solid #00ffa3;
+      background: #031822;
+      box-shadow: 8px 8px 72px rgba(0, 2, 7, 0.1);
+      border-radius: 16px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      align-self: center;
+      margin-bottom: 20px;
+
+      .features-card-img {
+        margin-left: 14px;
+        border: 2px solid #00ffa3;
+        border-radius: 20px 4px;
+        img {
+          padding: 20px;
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .features-card-info {
+        p {
+          width: 40px;
+          height: 20px;
+
+          font-weight: 600;
+          font-size: 20px;
+          &:last-of-type {
+            width: 200px;
+            height: 40px;
+
+            font-weight: 400;
+            font-size: 12px;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+
+    .features-main-first {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .features-main-second {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+.contacts {
+  .contacts-info {
+    color: white;
+    .contacts-info-head {
+      span {
+        font-family: 'DotGothic16';
+        font-size: 58px;
+      }
+
+      p {
+        font-family: 'Gilroy';
+        font-size: 18px;
+      }
+    }
+
+    .contacts-info-adress {
+      .contacts-info-adress-main {
+        line-height: 5px;
+        p {
+          font-size: 18px;
+
+          &:first-of-type {
+            color: #00ffa3;
+            line-height: -20px;
+          }
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .contacts-info-adress-button {
+      margin-top: 50px;
+    }
+  }
+}
+
+footer {
+  margin-top: 100px;
+  color: white;
+  .footer-section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.footer-section-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+ 
+  .footer-section-two-text {
+    p {
+      margin-top: 30px;
+      width: 435px;
+      height: 57px;
+      font-size: 16px;
+      opacity: 0.6;
+
+      &:last-of-type {
+        margin-top: 100px;
+        color: #00ffa3;
+        opacity: 1;
+      }
+    }
+   
+  }
+  .footer-section-two-icons {
+    margin-bottom: 15px;
+  }
+}
